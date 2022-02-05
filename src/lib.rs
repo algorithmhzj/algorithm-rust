@@ -1,4 +1,5 @@
 mod leetcode;
+mod nowcoder;
 
 #[cfg(test)]
 mod tests {
