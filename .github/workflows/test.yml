@@ -35,5 +35,5 @@ jobs:
       - name: upload to CodeCov
         uses: codecov/codecov-action@v2
         with:
-          files: report
+          files: ${{ steps.coverage.outputs.report }}
           fail_ci_if_error: true
